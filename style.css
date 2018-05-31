@@ -1,0 +1,304 @@
+
+html , body {
+height: 100%; width: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+}
+#logo{
+  height: 55px;
+}
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 145px;
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+}
+
+.nav-link{
+  font-family: Impact, Charcoal, sans-serif;
+  font-style: 55px;
+}
+
+.jumbotron {
+  background-image: url("./img/crown-agency-216105-unsplash.jpg");
+  background-size: cover;
+  background-position: center ;
+  display: block;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.header a {
+  float: right;
+  text-align: center;
+  font-size: 35px ;
+  font-weight: bold;
+  color: black ;
+  text-decoration: underline;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: white ;
+}
+.panel{
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 0;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.jumbotron2 {
+  background-image: url("./img/masaaki-komori-671599-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.list-group {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.nm {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.nm:hover {
+  color: black;
+}
+
+.badge {
+  color: black;
+}
+
+#sugg , #ent , #plat , #des , #bois {
+  padding-left: 10px;
+  color: white;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+
+.trois {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.troisun {
+  text-align: center;
+  width: 100%;
+  margin-top: 75px;
+}
+
+.troisdeux {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.troistrois {
+  text-align: center;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.troisquatre {
+  text-align: center;
+  width: 100%;
+  margin-top: 80px;
+}
+
+#gallery img {
+  width: 250px;
+  -webkit-transition-duration: 0.6s; /*Webkit: animation duration*/
+  -moz-transition-duration: 0.6s; /*Mozilla: animation duration*/
+  -o-transition-duration: 0.6s; /*Opera: animation duration*/
+  opacity: 0.6; /*initial opacity of the image*/
+  z-index: 1; /*place non-hover images behind the hover image*/
+  margin: 2px; /*remove default margin for images*/
+  position: relative; /*solve the problem with z-index in Chrome*/
+}
+
+#gallery img:hover {
+  -webkit-transform: scale( 1.5 ); /*Webkit: increase size to 1.5x*/
+  -moz-transform: scale( 1.5 ); /*Mozilla: scaling*/
+  -o-transform: scale( 1.5 ); /*Opera: scaling*/
+  box-shadow: 0px 0px 25px gray; /*CSS3 shadows: 25px fuzzy shadow around the entire image*/
+  -webkit-box-shadow: 0px 0px 25px gray; /*Webkit: shadows*/
+  -moz-box-shadow: 0px 0px 25px gray; /*Mozilla: shadows*/
+  opacity: 1; /*default opacity*/
+  z-index: 10; /*place hover image in front the non-hover images*/
+}
+
+.pagination {
+    clear:both;
+    position:relative;
+    font-size:11px;
+    text-align:center;
+}
+
+.pagination span, .pagination a {
+    display:inline-block;
+    margin: 2px 2px 2px 0;
+    padding:6px 9px 5px 9px;
+    text-decoration:none;
+    color: #ddd;
+    background: #222;
+}
+
+.pagination .current{
+    padding:6px 9px 5px 9px;
+    font-weight: bold;
+    background: #0950E8;
+}
+.photo{
+  height: 180px;
+}
+
+.photo1{
+  height: 150px;
+}
+
+.jumbotron4 {
+  background-image: url("./img/jon-tyson-204115-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.up{
+  height: 30px;
+}
+
+
+.jumbotron5{
+  background-image: url("./img/blur-burn-chocolate-1082342.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+* {
+   box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-font-smoothing:antialiased;
+   -moz-font-smoothing:antialiased;
+   -o-font-smoothing:antialiased;
+è   font-smoothing:antialiased;
+   text-rendering:optimizeLegibility;
+}
+body {
+   color: #C0C0C0;
+   font-family: Arial, san-serif;
+}
+
+
+/* Contact Form Styles */
+
+#contact-form {
+ background-color:rgba(72,72,72,0.7);
+   padding: 15px 25px 6px 25px;
+   max-width:100%;
+   float: left;
+   left: 50%;
+   position: absolute;
+   margin-left: -160px;
+   border-radius:7px;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+   color: white;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+   font-size: 15px;
+   margin-bottom: 2px;
+   font-family: Arial, san-serif;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+   width:100%;
+   background: #fff;
+   border: 0;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   margin-bottom: 25px;
+   padding: 5px;
+}
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+   background-color: #E5E6E7;
+}
+#contact-form textarea {
+   width:100%;
+   height: 100%;
+}
+#contact-form button[type="submit"] {
+   cursor:pointer;
+   width:100%;
+   border:none;
+   background:black;
+   background-image:linear-gradient(bottom, #FF7D25 0%, black 52%);
+   background-image:-moz-linear-gradient(bottom, #FF7D25 0%, black 52%);
+   background-image:-webkit-linear-gradient(bottom, #FF7D25 0%, black 52%);
+   color:#FFF;
+   padding:10px;
+   border-radius:5px;
+}
+#contact-form button[type="submit"]:hover {
+   background-image:linear-gradient(bottom, black 0%, #FF7D25 52%);
+   background-image:-moz-linear-gradient(bottom, black 0%, #FF7D25 52%);
+   background-image:-webkit-linear-gradient(bottom, black 0%, #FF7D25 52%);
+   -webkit-transition:background 0.3s ease-in-out;
+   -moz-transition:background 0.3s ease-in-out;
+   transition:background-color 0.3s ease-in-out;
+}
+#contact-form button[type="submit"]:active {
+   box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+input:required, textarea:required {
+   box-shadow: none;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+}
+#contact-form .required {
+   font-weight:bold;
+   color: #E5E6E7;
+}
+
+/* Hide success/failure message
+   (especially since the php is missing) */
+#failure, #success {
+   color: #6EA070;
+   display:none;
+}
+
+/* Make form look nice on smaller screens */
+@media only screen and (max-width: 580px) {
+   #contact-form{
+      left: 3%;
+      margin-right: 3%;
+      width: 88%;
+      margin-left: 0;
+      padding-left: 3%;
+      padding-right: 3%;
+   }
+}
