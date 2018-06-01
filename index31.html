@@ -15,7 +15,7 @@
 
 <body>
       <div class='jumbotron'>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-md color navbar-dark">
         <a class="navbar-brand" href="#"><img src="./logo.jpg" alt="logo" id="logo"></img></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -56,5 +56,18 @@
   <li class="page-item"><a class="page-link" href="./index32.html">>></a></li>
    </ul>
   </div>
+  <script type="text/javascript">
+  if ('serviceWorker' in navigator) {
+window.addEventListener('load', function() {
+  navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    // Registration was successful
+    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+  }, function(err) {
+    // registration failed :(
+    console.log('ServiceWorker registration failed: ', err);
+  });
+});
+}
+</script>
 </body>
 </html>

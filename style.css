@@ -6,7 +6,7 @@ padding: 0px;
 overflow-x: hidden;
 }
 #logo{
-  height: 55px;
+  height: 60px;
 }
  body {
   background-color: black;
@@ -41,6 +41,10 @@ h1 {
   color: black ;
   text-decoration: underline;
   font-family: Impact, Charcoal, sans-serif;
+}
+
+.color {
+  background: rgba(52, 58, 64,0.2);
 }
 
 .row {
@@ -83,7 +87,7 @@ h1 {
 }
 
 #sugg , #ent , #plat , #des , #bois {
-  padding-left: 10px;
+  padding-left: 33px;
   color: white;
   font-family: Impact, Charcoal, sans-serif;
 }
@@ -146,6 +150,7 @@ h1 {
     position:relative;
     font-size:11px;
     text-align:center;
+    margin-bottom: 0;
 }
 
 .pagination span, .pagination a {
@@ -158,7 +163,7 @@ h1 {
 }
 
 .pagination .current{
-    padding:6px 9px 5px 9px;
+    padding:4px 9px 5px 9px;
     font-weight: bold;
     background: #0950E8;
 }
@@ -210,7 +215,7 @@ body {
 
 #contact-form {
  background-color:rgba(72,72,72,0.7);
-   padding: 15px 25px 6px 25px;
+   padding: 12px 25px 6px 25px;
    max-width:100%;
    float: left;
    left: 50%;
