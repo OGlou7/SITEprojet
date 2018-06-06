@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["README.md","1c7970290684a9e9119ed6f963ecaa7b"],["img/blur-burn-chocolate-1082342.jpg","a31ab3dff586c32ecea1c028d008ea56"],["img/blur-burn-dark-1082343.jpg","58c28f54bdc00f77cc7f9c469199b715"],["img/bright-dark-design-846944.jpg","281117fb263138b464ee8570ed53e49b"],["img/malcolm-lightbody-591458-unsplash.jpg","1a3c4f0f0eea3205d7134015ab2579fa"],["img/markus-spiske-253727-unsplash.jpg","68388eef89b58e520835f3a121fac635"],["img/masaaki-komori-671599-unsplash.jpg","930702450c5bcdf6723734ddcea77a6a"],["img/nadya-spetnitskaya-544606-unsplash.jpg","0a3d251227d8096ebd933aae215b1a78"],["img/roberta-sorge-142255-unsplash.jpg","99b4e744d3acdf499470b8e549edeed3"],["index.html","77d190b5677b81622d06ceb9f6831a62"],["index2.html","d4e24b53cfc637dbe09c4f17cc7476df"],["index3.html","3afaebbbe52a1e70b4a9999550c35afa"],["index31.html","fd820f7502f94de6ececc38a786e7cee"],["index32.html","0dac42beb937fdb1680b0da3cc7ac809"],["index33.html","35c02db35092e8c86531ef3e62c13a91"],["index34.html","457058cb990d8cfe9399e6829e08cac0"],["index4.html","58fa9bed624ad57ceb477134f7c06c2c"],["index5.html","f45f10937bc71a0cc3c034179630d596"],["logo.jpg","2f2a2d9e04698efa4d035aa76ed00c12"],["script.js","64429f2c7e61b30b591b058bdb967165"],["style.css","1f0e9be970632b76e17ea0658358086b"]];
+var precacheConfig = [["README.md","1c7970290684a9e9119ed6f963ecaa7b"],["img/blur-burn-chocolate-1082342.jpg","3d3fe1e65b907a930c62ea1a24d23adb"],["img/blur-burn-dark-1082343.jpg","0f0fb5f6671e458afd295c5b888409a3"],["img/bright-dark-design-846944.jpg","e68ac994c599b830b5400971505b8948"],["img/crown-agency-216105-unsplash.jpg","7f73f0cd3fba36366618ce5da5b775fe"],["img/icons8-restaurant-building-100.png","981391562a419bb2faeef0fb22c9f489"],["img/icons8-restaurant-building-filled-100.png","bc6bff589be4895b6778e5eb13cd7da3"],["img/jon-tyson-204115-unsplash.jpg","4dcf09be996cf5d863f9591f5e8badc2"],["img/katarzyna-grabowska-397453-unsplash.jpg","13ad9a8932f6e69a9d7ec04fd2bdb492"],["img/malcolm-lightbody-591458-unsplash.jpg","53ce2763a50241dd169045af48c3a1ad"],["img/markus-spiske-253727-unsplash.jpg","7acf4d8a825df18cebc46859be419c32"],["img/masaaki-komori-671599-unsplash.jpg","af0e8eae4785699d307cf090cf83b5c9"],["img/michael-browning-188999-unsplash.jpg","e1641d85ca094e1a293a1a66be36da84"],["img/nadya-spetnitskaya-544606-unsplash.jpg","309782bf816a6a4fcbbe1f8a45a88afd"],["img/roberta-sorge-142255-unsplash.jpg","7e14d6d09e40a48a49dd502cc859ba9b"],["img/tim-mossholder-678979-unsplash.jpg","286ae7012b7f0e22aca3918517965f59"],["img/wine-dharma-614290-unsplash.jpg","9ec92cd6360fb29a57f85116c8101803"],["index.html","a2a29b87f5b8a51723d5e9b7f55865ac"],["index2.html","1879f28f09aba739dbae55e0e6487118"],["index3.html","d218bb502dc80fd9b604e3260cdb78ed"],["index31.html","250e10335d34630f0f5e9b4f50193d0a"],["index32.html","56642d2c89bfb529c1a4f5b2286af950"],["index33.html","e08006dcb96b224238e1137219a069a3"],["index34.html","1f448457bed1fb3d2a33967f8699613a"],["index4.html","e08bc0bd28973ed8281833898f04ce6e"],["index5.html","95409b0935657516254330c7581d8414"],["logo.jpg","2f2a2d9e04698efa4d035aa76ed00c12"],["manifest.json","593cb316d1f28725b000b9145c558b9b"],["script.js","64429f2c7e61b30b591b058bdb967165"],["style.css","1fbb6f6c46ebacc782fd535bede45999"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -176,10 +176,10 @@ self.addEventListener('install', function(event) {
         );
       });
     }).then(function() {
-
+      
       // Force the SW to transition from installing -> active state
       return self.skipWaiting();
-
+      
     })
   );
 });
@@ -199,9 +199,9 @@ self.addEventListener('activate', function(event) {
         );
       });
     }).then(function() {
-
+      
       return self.clients.claim();
-
+      
     })
   );
 });
@@ -259,3 +259,10 @@ self.addEventListener('fetch', function(event) {
     }
   }
 });
+
+
+
+
+
+
+

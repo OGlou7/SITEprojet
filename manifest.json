@@ -1,0 +1,18 @@
+{
+  "name": "SITEprojet",
+  "short_name": "SITEprojet",
+  "icons": [{
+    "src": "./img/icons8-restaurant-building-100.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "img/icons8-restaurant-building-filled-1004.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "scope": "/SITEprojet/",
+  "theme_color": "white"
+}
