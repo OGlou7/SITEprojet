@@ -1,7 +1,6 @@
 # Site Restaurant
 
 - **Repository**: `SITEprojet`
-- **Team** : `In the group of 2 persons`
 
 - **Duration** : `7 Days`
 
@@ -30,12 +29,12 @@ For this, we have to
 
 ##  New skills acquired from this project
 
-* More Creative
-* Learn remote work and use all tools to make a good communication
-* How to use `include()`function in order to DRY and php classes
-* Learn the php method of `validate`,`sanitize`,`execute` and `feedback`
-* The use of `.gitignore` file
-* How to make your website compatible with the RGPD/Cookies.
+* 
+* 
+* 
+* 
+* 
+* 
 
 
 ## Lighthouse Test
