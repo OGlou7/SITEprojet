@@ -1,6 +1,6 @@
 # Site Restaurant
 
-- **Repository**: `Multipage-Website-in-php`
+- **Repository**: `SITEprojet`
 - **Team** : `In the group of 2 persons`
 
 - **Duration** : `7 Days`
