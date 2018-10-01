@@ -16,8 +16,6 @@
 
 ## About the Project
 
-This project will helps us to learn how to realise a project in real situations, but will not be given to a any client. It is just an exercise from [BeCode](https://github.com/becodeorg/)
-For this, we have to 
 
 
 
