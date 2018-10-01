@@ -20,27 +20,13 @@ This project will helps us to learn how to realise a project in real situations,
 For this, we have to 
 
 
-## Objectives
-
-
-## Instructions
-
-
-
-##  New skills acquired from this project
-
-* 
-* 
-* 
-* 
-* 
-* 
-
 
 ## Lighthouse Test
 
 
 
 ## Link to the final project
+
+https://oglou7.github.io/SITEprojet/
 
 
