@@ -1,4 +1,4 @@
-# Site Restaurant
+# Restaurant Website
 
 - **Repository**: `SITEprojet`
 
@@ -11,8 +11,6 @@
 
 - **Made by**  
   - [Marie Louise Ogdoc](https://github.com/OGlou7)
-
-- **When?**
         
 
 - **Where?**
@@ -20,12 +18,7 @@
 
 
 ## About the Project
-
-
-
-
-## Lighthouse Test
-
+  - Create a MultiPage Website 
 
 
 ## Link to the final project
