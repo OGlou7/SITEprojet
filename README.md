@@ -4,6 +4,11 @@
 
 - **Duration** : `7 Days`
 
+- **Technologies**:
+  - HTML
+  - CSS
+  - BOOTSTRAP
+
 - **Made by**  
   - [Marie Louise Ogdoc](https://github.com/OGlou7)
 
