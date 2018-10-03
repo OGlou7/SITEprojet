@@ -4,7 +4,7 @@
 
 - **Duration** : `7 Days`
 
-- **Done by**  
+- **Made by**  
   - [Marie Louise Ogdoc](https://github.com/OGlou7)
 
 - **When?**
