@@ -18,7 +18,7 @@
 
 
 ## About the Project
-  - Create a MultiPage Website 
+  Create a MultiPage Website 
 
 
 ## Link to the final project
