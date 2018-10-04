@@ -14,11 +14,11 @@
         
 
 - **Where?**
-        - A project done while in training at [Becode](https://github.com/becodeorg/)
+  - A project done while in training at [Becode](https://github.com/becodeorg/)
 
 
 ## About the Project
-  Create a MultiPage Website 
+  My First creation of a MultiPage Website 
 
 
 ## Link to the final project
