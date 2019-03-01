@@ -10,7 +10,7 @@
   - BOOTSTRAP
 
 - **Made by**  
-  - [Marie Louise Ogdoc](https://github.com/OGlou7)
+  - [Louise](https://github.com/OGlou7)
         
 
 - **Where?**
